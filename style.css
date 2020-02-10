@@ -1,0 +1,41 @@
+
+#title{
+      text-align: center;
+      color: pink;
+      font-family: 'Staatliches', sans-serif;
+}
+
+#subtitle{
+  font-family: courier, monospace;
+  text-align: center;
+  color:#02A2FF;
+  background-color: lightblue;
+}
+
+#bread{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link{
+  color:purple;
+  font-family: courier, monospace;
+}
+
+a:visited{
+  color:#D592FD;
+  font-family: courier, monospace;
+}
+
+a:hover{
+  background-color: lavender;
+}
+
+img{
+  align-items: center;
+}
+
+.links{
+  text-align: center;
+}

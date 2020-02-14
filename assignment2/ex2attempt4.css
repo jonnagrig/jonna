@@ -1,0 +1,21 @@
+
+#title{
+  font-family: 'Knewave', cursive;
+  text-align: right;
+}
+
+#ingredients{
+  font-family: 'Lacquer', sans-serif;
+  width: 230px; 
+}
+
+#instructions{
+  font-family: 'Lacquer', sans-serif;
+  text-align: right;
+  width: 230px;
+}
+
+#link{
+  font-family: 'Knewave', cursive;
+  text-align: right;
+}

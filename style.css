@@ -12,12 +12,6 @@
   background-color: lightblue;
 }
 
-#bread{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 a:link{
   color:purple;
   font-family: courier, monospace;
@@ -32,10 +26,60 @@ a:hover{
   background-color: lavender;
 }
 
-img{
-  align-items: center;
-}
-
 .links{
   text-align: center;
+}
+
+body{
+  background-image: url("table.jpg")
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+#table{
+  display: block;
+  margin: 0 auto;
+}
+
+#laptop{
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 60px;
+  height: 900px;
+  width: 1000px;
+}
+
+#notebook{
+  position: absolute;
+  z-index: 2;
+  bottom: 40px;
+  left: 50px;
+  height: 100%;
+  width: 90%;
+}
+
+#linedsheet{
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  left: 50px;
+  height: 100%;
+  width: 90%;
+}
+
+#paper{
+  position: absolute;
+  z-index: 2;
+  bottom: 0px;
+  left: 50px;
+  height: 100%;
+  width: 90%;
+}
+
+
+
+
 }

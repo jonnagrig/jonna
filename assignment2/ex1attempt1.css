@@ -1,0 +1,28 @@
+#header{
+border: 5px dotted maroon;
+padding: 5px;
+}
+
+#ingredients{
+position: absolute;
+width: 300px;
+border: 1px dashed black;
+padding-left: 30px;
+padding-right: 30px; 
+}
+
+#instructions{
+position: relative;
+width: 800px;
+left: 390px;
+top: -20px;
+border: 1px dashed black;
+padding-left: 30px;
+padding-right: 30px; 
+}
+
+#link{
+  position: relative;
+  left: 390px;
+  top: -70px;
+}

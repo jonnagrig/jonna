@@ -1,0 +1,28 @@
+#title{
+  text-align: center;
+  font-family: monospace;
+  font-size: 90px;
+}
+
+.ingredients{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 40px;
+  position: sticky;
+  line-height: 60px;
+  top: 0;
+}
+
+.instructions{
+  text-align: center;
+  font-size: 12px;
+  position: sticky;
+  line-height: 20px;
+  letter-spacing: 20px;
+  top: 0;
+}
+
+#back{
+  text-align: center;
+}

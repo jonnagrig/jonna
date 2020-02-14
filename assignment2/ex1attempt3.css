@@ -1,0 +1,36 @@
+#first{
+  position: relative;
+  text-align: center;
+  width: 50px;
+  left: 30px;
+  border: 10px ridge gold;
+  padding: 40px;
+}
+
+#second{
+  position: relative;
+  width: 50px;
+  left: 400px;
+  text-align: center;
+  border: 10px ridge gold;
+  padding: 40px;
+}
+
+#third{
+  position: relative;
+  width: 50px;
+  left: 1000px;
+  text-align: center;
+  border: 10px ridge gold;
+  padding: 40px;
+}
+
+#fourth{
+  position: relative;
+  width: 50px;
+  left: 1300px;
+  text-align: center;
+  border: 10px ridge gold;
+  padding: 40px;
+
+}

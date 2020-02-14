@@ -1,0 +1,50 @@
+#step1{
+  border: 10px solid red;
+  position: absolute;
+  width: 200px;
+}
+
+#step2{
+  border: 8px solid orange;
+  position: relative;
+  left: 240px;
+  width: 200px;
+}
+
+#step3{
+  border: 8px solid lightgreen;
+  position: relative;
+  left: 475px;
+  width: 200px;
+  top: -143px;
+}
+
+#step4{
+  border: 8px solid lightblue;
+  position: relative;
+  left: 710px;
+  width: 200px;
+  top: -303px;
+}
+
+#step5{
+  border: 8px solid blue;
+  position: relative;
+  left: 945px;
+  width: 200px;
+  top: -445px;
+}
+
+#link{
+  border: 8px solid purple;
+  position: relative;
+  left: 1185px;
+  width: 200px;
+  top: -605px;
+}
+
+#ingredients{
+  border: dotted 30px pink;
+  padding: 10px;
+  width: 400px;
+}

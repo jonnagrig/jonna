@@ -1,0 +1,20 @@
+#header{
+  border: 100px solid black;
+  text-align: center;
+}
+
+#ingredients{
+  border: 300px solid black;
+  text-align: center;
+  line-height: 70px;
+}
+
+#instructions{
+  border: 200px solid black;
+  text-align: center;
+  line-height: 40px;
+}
+
+#link{
+  text-align: center;
+}

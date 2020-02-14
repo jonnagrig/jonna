@@ -1,0 +1,17 @@
+#title{
+  border: 40px solid #32a868;
+  padding-left: 40%;
+}
+
+.text{
+  position: sticky;
+  top: 0;
+  border: 1px dotted #9d69ff;
+}
+
+.instructions{
+  position: sticky;
+  top: 0;
+  border: 20px solid #ff69c5;
+}
+

@@ -1,0 +1,33 @@
+
+h1{
+font-size: 350px;
+font-family: sans-serif;
+position: fixed;
+top: -200px;
+line-height: 290px;
+text-align: center;
+}
+
+#serving{
+  font-family: sans-serif;
+  font-style: italic;
+  font-size: 300px;
+  position: fixed;
+  left: 80px;
+  top: 270px;
+}
+
+#link{
+  font-family: sans-serif;
+  font-size: 12px;
+  position: fixed;
+  top: 0px;
+  text-align: center;
+}
+
+div{
+  font-family: sans-serif;
+  font-weight: bolder;
+  position: relative;
+  margin: 500px;
+}

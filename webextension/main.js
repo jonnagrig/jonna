@@ -50,10 +50,6 @@ $('.currency-value').each( function(index, element) {
   }
 );
 
-// Logo recolor
-// $('#logo').remove()
-// $('#logo').append('xmlns': 'https://www.pngfind.com/pngs/m/196-1968806_etsy-logo-transparent-png-lifetime-network-logo-black.png');
-
 // changing links
 var links = [
 'https://www.gwennseemel.com/blog/2019/0207-charity/', 
@@ -81,7 +77,6 @@ $('.wt-text-title-01.wt-text-link-no-underline.display-inline-block').each( func
 );
 
 // Changing images using array
-$('.display-block.width-full.position-absolute.vertical-center.placeholder-content').remove();
 
 var images = [
 

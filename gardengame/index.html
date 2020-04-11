@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>create your own garden</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="garden.js"></script>
+
+  <style type="text/css">
+		.mouseDownBox {
+			position: fixed;
+		}
+
+    body {
+    background-image: url("https://belleofdirt.files.wordpress.com/2012/09/grass.jpg");
+  }
+
+  img {
+    min-height: 100px;
+    max-height: 220px;
+    min-width: 40px;
+    max-width: 100px;
+  }
+
+  #title {
+    font-family: "Comic Sans MS";
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+  }
+
+
+	</style>
+
+</head>
+
+
+  <body>
+
+    <div id=title> Click to plant a garden!</div>
+
+    <div id="flowers"></div>
+
+  </body>
+
+  <script type="text/javascript">
+		var counter = 0;
+
+		$(window).mousedown(function( event ) {
+			var flowersDiv = $('<div/>', {
+				'class': 'mouseDownBox'
+			})
+			.html(flowers[counter%flowers.length].pic)
+			.css({'top': event.pageY-50, 'left': event.pageX-50})
+
+			counter = counter+1;
+			$('body').append(flowersDiv)
+		})
+
+	</script>
+
+</html>
+
+
+
+
+

@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <title>This is my circuit breaker box.</title>
+</head>
+
+<body>
+
+	<button id="button">LIGHT SWITCH</button>
+	<div id="lights"></div>
+
+</body>
+
+<script>
+    		
+    	$('button').click(function () {
+
+    			$('#lights').css({
+
+    				"background-color" : 'rgb(' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ')'
+    			})
+    			console.log("the lights ");
+    	});
+
+</script>
+
+</html> 

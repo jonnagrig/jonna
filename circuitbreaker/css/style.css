@@ -1,0 +1,17 @@
+/*this is your css file*/
+
+#lights {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	z-index: -2;
+}
+
+button {
+	position: absolute;
+	left: 300px;
+	top: 100px;
+	height: 600px;
+	width: 400px;
+}

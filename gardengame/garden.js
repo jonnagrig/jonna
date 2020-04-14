@@ -8,7 +8,7 @@ var flowers = [
   "color": "red",
   "location": "asia",
   "size": "medium sized",
-  "pic": "<img src='https://lh3.googleusercontent.com/proxy/SWHaEXB698Jp0gwCWZxsshZYkGv5T0V77v0Xnzs30YfbvDLvA3d_QMTpNXOjv-CVBw7NPOdw27FpPKQuX6uv4XwJDj_9i-468YjjFXnu3YjmznMXs01ljfWBuYcMqXAavv8G'>"
+  "pic": "<img src='https://lh3.googleusercontent.com/proxy/htArQp8YcPXFaneWiQ8A9h1QEm0RkgyPZ936wyL5xwZA4Sgk9tQhS29IMC32b95YeWiWNHRl_gjWTIU4fVhLY043GkE1wMvdAEcR0ARKIyP8U3DtRKrLNtuiS3lQXqmK2hPx'>"
 },
 
 { "name": "daisies",
@@ -99,7 +99,7 @@ var flowers = [
   "color": "purple",
   "location": "north america",
   "size": "small sized",
-  "pic": "<img src='https://i.dlpng.com/static/png/391315_preview.png'>"
+  "pic": "<img src='https://pngfile.net/public/uploads/preview/beautiful-purple-flower-png-free-download-81567546861ywmbkscez0.png'>"
 },
 
 { "name":  "jasmines",

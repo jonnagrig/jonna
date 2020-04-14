@@ -4,26 +4,84 @@
 <head>
 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	 <link rel="stylesheet" type="text/css" href="css/style.css">
-	 <title>This is my circuit breaker box.</title>
+	 <title>A circuit breaker box.</title>
 </head>
 
 <body>
 
-	<button id="button">LIGHT SWITCH</button>
-	<div id="lights"></div>
+    <div id="circuitpanel"></div>
+
+	<div id="homeswitch"></div>
+    <div id="switch1"></div>
+    <div id="switch2"></div>
+    <div id="switch3"></div>
+    <div id="switch4"></div>
+    <div id="switch5"></div>
+    <div id="switch6"></div>
+    <div id="switch7"></div>
+    <div id="switch8"></div>
+    <div id="switch9"></div>
+    <div id="switch10"></div>
+
+    <div id="room1" class="house"></div>
+    <div id="room2" class="house"></div>
+    <div id="room3" class="house"></div>
+    <div id="room4" class="house"></div>
+    <div id="room5" class="house"></div>
+    <div id="room6" class="house"></div>
+    <div id="allbright" class="house"></div>
 
 </body>
 
 <script>
-    		
-    	$('button').click(function () {
 
-    			$('#lights').css({
+    $('#homeswitch').click(function () {
+        $('body').css({
+            "background-color" : 'black'
+         }), 
+        $('.house').css({
+            "background-color" : 'black'
+         })
+        });
 
-    				"background-color" : 'rgb(' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ',' + Math.floor(Math.random()*255) + ')'
-    			})
-    			console.log("the lights ");
-    	});
+        $('#switch1').click(function () {
+            $('#room1').css({
+                "background-color" : 'white'
+         })
+        });
+
+        $('#switch3').click(function () {
+            $('#room2').css({
+                "background-color" : 'white'
+         })
+        });
+
+        $('#switch4').click(function () {
+            $('#room3').css({
+                "background-color" : 'white'
+         })
+        });
+        $('#switch6').click(function () {
+            $('#room4').css({
+                "background-color" : 'white'
+         })
+        });
+        $('#switch8').click(function () {
+            $('#room5').css({
+                "background-color" : 'white'
+         })
+        });
+        $('#switch5').click(function () {
+            $('#room6').css({
+                "background-color" : 'white'
+         })
+        });
+        $('#switch10').click(function () {
+            $('body').css({
+                "background-color" : 'white'
+         })
+        });
+
 
 </script>
 

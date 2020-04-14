@@ -1,17 +1,187 @@
 /*this is your css file*/
 
-#lights {
+/*#lights {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
 	background-color: black;
 	z-index: -2;
+}*/
+
+
+#circuitpanel {
+	position: absolute;
+	left: 295px;
+	top: 100px;
+	height: 540px;
+	width: 340px;
+	background-color: grey;
+	border: solid black 7px;
 }
 
-button {
-	position: absolute;
-	left: 300px;
-	top: 100px;
-	height: 600px;
-	width: 400px;
+#homeswitch {
+	position: relative;
+	top: 110px;
+	left: 395px;
+	height: 70px;
+	width: 140px;
+	background-color: lightgrey;
+	border: solid black 2px;
 }
+
+#switch1 {
+	position: relative;
+	top: 140px;
+	left: 310px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch2 {
+	position: relative;
+	top: 150px;
+	left: 310px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch3 {
+	position: relative;
+	top: 160px;
+	left: 310px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch4 {
+	position: relative;
+	top: 170px;
+	left: 310px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch5 {
+	position: relative;
+	top: 180px;
+	left: 310px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch6 {
+	position: relative;
+	top: -230px;
+	left: 480px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch7 {
+	position: relative;
+	top: -220px;
+	left: 480px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch8 {
+	position: relative;
+	top: -210px;
+	left: 480px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch9 {
+	position: relative;
+	top: -200px;
+	left: 480px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#switch10 {
+	position: relative;
+	top: -190px;
+	left: 480px;
+	height: 70px;
+	width: 135px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+
+#room1 {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 0%;
+	top: 0%;
+	background-color: ;
+	z-index: -1;
+}
+#room2 {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 90%;
+	top: 50%;
+	background-color: ;
+	z-index: -1;
+}
+#room3 {
+	position: absolute;
+	width: 400px;
+	height: 400px;
+	left: 60%;
+	top: 0%;
+	background-color: ;
+	z-index: -1;
+}
+#room4 {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 30%;
+	top: 50%;
+	background-color: ;
+	z-index: -1;
+}
+#room5 {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 60%;
+	top: 50%;
+	background-color: ;
+	z-index: -1;
+}
+#room6 {
+	position: absolute;
+	width: 600px;
+	height: 600px;
+	left: 0%;
+	top: 50%;
+	background-color: ;
+	z-index: -1;
+}
+

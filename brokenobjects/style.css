@@ -1,0 +1,155 @@
+
+
+h1 {
+	text-align: center;
+	font-family: 'Codystar', cursive;
+	font-size: 60px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-top: 10%;
+}
+
+/*.flex-container > div {
+	flex: 0 0 auto;
+}*/
+
+img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+
+.material {
+	display: none;
+	height: 300px;
+	width: 300px;
+	background-color: grey;
+	border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#object1 {
+height: 30px;
+}
+
+#object2 {
+	left: 500px;
+	top: 140px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object3 {
+	left: 500px;
+	top: 140px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object4 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object5 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object6 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object7 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object8 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object9 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+#object10 {
+	left: 70px;
+	top: 150px;
+	height: 300px;
+	width: 300px;
+	background-color: lightgrey;
+	border: solid black 2px;
+}
+
+*/

@@ -5,82 +5,118 @@
 var brokenobjects = [
 
 { "name": "egg",
-  "pic": "<img id='egg' src='images/egg.png' alt='round white whole egg'>"
+  "pic": "<img id='egg' src='images/egg.png' alt='round white whole egg'>",
+  "pic2": "<img id='egg2' src='images/egg2.png'>"
 },
 
 { "name": "glowstick",
-  "pic": "<img id='glowstick' src='images/glowstick.png' alt='blue glowstick'>"
+  "pic": "<img id='glowstick' src='images/glowstick.png' alt='blue glowstick'>",
+  "pic2": "<img id='glowstick2' src='images/glowstick2.png'>"
 },
 
 { "name": "pinata",
-  "pic": "<img id='pinata' src='images/pinata.png' alt='colorful pony pinata'>"
+  "pic": "<img id='pinata' src='images/pinata.png' alt='colorful pony pinata'>",
+  "pic2": "<img id='pinata2' src='images/pinata2.png'>"
 },
 
 { "name": "envelope",
-  "pic": "<img id='envelope' src='images/envelope.png' alt='unopened white envelope'>"
+  "pic": "<img id='envelope' src='images/envelope.png' alt='unopened white envelope'>",
+  "pic2": "<img id='envelope2' src='images/envelope2.png'>"
 },
 
 { "name": "tape",
-  "pic": "<img id='tape' src='images/tape.png' alt='roll of clear packing tape'>"
+  "pic": "<img id='tape' src='images/tape.png' alt='roll of clear packing tape'>",
+  "pic2": "<img id='tape2' src='images/tape2.png'>"
 },
 
 { "name": "cookie",
-  "pic": "<img id='cookie' src='images/cookie.png' alt='colorful pony pinata'>"
+  "pic": "<img id='cookie' src='images/cookie.png' alt='whole unwrapped fortune cookie'>",
+  "pic2": "<img id='cookie2' src='images/cookie2.png'>"
 },
 
 { "name": "breakglass",
-  "pic": "<img id='breakglass' src='images/breakglass.png' alt='empty red break glass in case of emergency wall box'>"
+  "pic": "<img id='breakglass' src='images/breakglass.png' alt='empty red break glass in case of emergency wall box'>",
+  "pic2": "<img id='breakglass2' src='images/breakglass2.png'>"
 },
 
 { "name": "wrapping",
-  "pic": "<img id='wrapping' src='images/wrapping.png' alt='present wrapped in brown paper and green and red ribbons'>"
+  "pic": "<img id='wrapping' src='images/wrapping.png' alt='present wrapped in brown paper and green and red ribbons'>",
+  "pic2": "<img id='wrapping2' src='images/wrapping2.png'>"
 },
 
-{ "name": "block",
-  "pic": "<img id='wood' src='images/wood.png' alt='brown rectangular block of wood'>"
+{ "name": "wood",
+  "pic": "<img id='wood' src='images/wood.png' alt='brown rectangular block of wood'>",
+  "pic2": "<img id='wood2' src='images/wood2.png'>"
 },
 
 { "name": "wonderball",
-  "pic": "<img id='wonderball' src='images/wonderball.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='wonderball' src='images/wonderball.png' alt='wonderball chocolate ball wrapped in colorful foil'>",
+  "pic2": "<img id='wonderball2' src='images/wonderball2.png'>"
 },
 
 { "name": "nails",
-  "pic": "<img id='nails' src='images/nails.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='nails' src='images/nails.png' alt='hand showing off long red painted nails'>",
+  "pic2": "<img id='nails2' src='images/nails2.png'>"
 },
 
 { "name": "ice",
-  "pic": "<img id='ice' src='images/ice.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='ice' src='images/ice.png' alt='three stacked cubes of ice'>",
+  "pic2": "<img id='ice2' src='images/ice2.png'>"
 },
 
 { "name": "rolls",
-  "pic": "<img id='rolls' src='images/rolls.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='rolls' src='images/rolls.png' alt='can of pillsbury crescent rolls'>",
+  "pic2": "<img id='rolls2' src='images/rolls2.png'>"
 },
 
 { "name": "paper",
-  "pic": "<img id='paper' src='images/paper.png' alt='piece of blank notebook paper ripped in half'>"
+  "pic": "<img id='paper' src='images/paper.png' alt='piece of blank notebook paper ripped in half'>",
+  "pic2": "<img id='paper2' src='images/paper2.png'>"
 },
 
 { "name": "peanut",
-  "pic": "<img id='peanut' src='images/peanut.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='peanut' src='images/peanut.png' alt='unopened whole peanut shell'>",
+  "pic2": "<img id='peanut2' src='images/peanut2.png'>"
 },
 
 { "name": "snaps",
-  "pic": "<img id='snaps' src='images/snaps.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='snaps' src='images/snaps.png' alt='box of bang snap firecrackers with bang snaps scattered around it'>",
+  "pic2": "<img id='snaps2' src='images/snaps2.png'>"
 },
 
 { "name": "kitkat",
-  "pic": "<img id='kitkat' src='images/kitkat.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='kitkat' src='images/kitkat.png' alt='in tact king size kitkat without the wrapper'>",
+  "pic2": "<img id='kitkat2' src='images/kitkat2.png'>"
 },
 
 { "name": "chopsticks",
-  "pic": "<img id='chopsticks' src='images/chopsticks.png' alt='brown rectangular block of wood'>"
+  "pic": "<img id='chopsticks' src='images/chopsticks.png' alt='unwrapped pair of disposable wooden chop sticks not yet seperated from eachother'>",
+  "pic2": "<img id='chopsticks2' src='images/chopsticks2.png'>"
 }
 ]
+
+// ARRAY METHOD PRACTICE - console logging with forEach
+brokenobjects.forEach( brokenobjects => console.log(brokenobjects.name));
 
 
 for(var i=0; i<brokenobjects.length; i++){
   $('#objectsArray').append('<div class="things">' + brokenobjects[i].pic + '</div>')
 }
+
+// $(function() {
+//  $('#objectsArray').click(function(){
+//    $('img').attr((brokenobjects[i].pic2));
+//    return false;
+//  });
+// });
+
+// $( "#objectsArray" ).click(function() {
+//   $( this ).html(brokenobjects[i].pic2);
+// });
+
+
+
+
 
 
 // // EGG INFO

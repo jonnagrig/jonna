@@ -43,7 +43,6 @@ for(var i=0; i<genres.length; i++){
   $('#genreArray').append('<div class="genre">' + genres[i].image + genres[i].name + '</div>')
 }
 
-// MAKING LINKS VISIBLE
 for(var i=0; i<genres.length; i++){
   $('.genre').append('<ul class="genrelinks">' + genres[i].links + '</ul>')
   $('.genrelinks').hide();

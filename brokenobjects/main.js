@@ -66,7 +66,7 @@ var brokenobjects = [
 
 { "name": "peanut",
   "pics": ["<img id='peanut' src='images/peanut.png' alt='unopened whole peanut shell'>", "<img id='peanut2' src='images/peanut2.png'>"],
-  "links": ["<a href='https://www.vice.com/en_us/article/vbpep3/woman-sues-restaurant-after-falling-on-peanut-shells-scattered-all-over-floor'>Woman Sues Restaraunt</a>",  "<a href='https://www.youtube.com/watch?v=_LkrCSFj44c&feature=emb_title'>Peanut Butter & JElly by Duane Keiser</a>",  "<a href='https://www.poetryfoundation.org/poems/54620/peanut-butter'>Peanut Butter by Eileen Myles</a>"] 
+  "links": ["<a href='https://www.vice.com/en_us/article/vbpep3/woman-sues-restaurant-after-falling-on-peanut-shells-scattered-all-over-floor'>Woman Sues Restaraunt</a>",  "<a href='https://www.youtube.com/watch?v=_LkrCSFj44c&feature=emb_title'>Peanut Butter & Jelly by Duane Keiser</a>",  "<a href='https://www.poetryfoundation.org/poems/54620/peanut-butter'>Peanut Butter by Eileen Myles</a>"] 
 },
 
 { "name": "chopsticks",
@@ -83,7 +83,7 @@ for(var i=0; i<brokenobjects.length; i++){
   $('#objectsArray').append('<div class="object">' + brokenobjects[i].pics[0] + '</div>')
 }
 
-// MAKING LINKS VISIBLE
+
 for(var i=0; i<brokenobjects.length; i++){
   $('.object').append('<ul class="genrelinks">' + brokenobjects[i].links + '</ul>')
   $('.genrelinks').hide();

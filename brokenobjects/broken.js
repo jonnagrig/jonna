@@ -6,9 +6,9 @@ var bandaids = [
 
 { "image": "<img id='classic' src='images/classicbandaid.png'>"},
 
-{ "image": "<img id='straight' src='images/straightbandaid.png'>"},
-
 { "image": "<img id='round' src='images/roundbandaid.png'>"},
+
+{ "image": "<img id='straight' src='images/straightbandaid.png'>"},
 
 { "image": "<img id='heart' src='images/heartbandaid.png'>"},
 
@@ -107,10 +107,56 @@ var jumbledlinks = [
 
 // MAKING IMAGES VISIBLE ON SITE
 for(var i=0; i<bandaids.length; i++){
-  $("#bandaidscatter").append('<div class="bandaid">' + bandaids[i].image + '</div>')
+  $("#bandaidscatter").append('<div id="bandaid">' + bandaids[i].image + '</div>')
 }
 
 
+  $("#bandaid").css({
+      "top" : Math.floor(Math.random() * 100) + "%",
+      "left" : Math.floor(Math.random() * 100) + "%"
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $('img').each( function(index, element) {
+//     var image = images[index%29]
+//     $(this).attr({"src": image, "srcset": image})
+//   }
+// );
+
+
+// function numberRandomizer(){
+//   var x = Math.floor((Math.random() * 250) + 50); //random number between 50 and 300
+//   return x;
+// }
+
+// document.getElementsByClassName('bandaid').style.top = numberRandomizer() + 'px';
+// document.getElementsByClassName('bandaid').style.left = numberRandomizer() + 'px';
 
 
 // $(document).ready(function() {

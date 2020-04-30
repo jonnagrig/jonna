@@ -12,7 +12,7 @@ var bandaids = [
 
 { "image": "<img id='heart' src='images/heartbandaid.png'>"},
 
-{ "image": "<img id='heart' src='images/recbandaid.png'>"}
+{ "image": "<img id='rectangle' src='images/recbandaid.png'>"}
 ]
 
 var jumbledlinks = [

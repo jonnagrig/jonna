@@ -15,21 +15,20 @@
     <H1 id="title"> TO EXIST TO BE BROKEN </H1>
 
     <div id="sortingcontainer">
-        <a href='' class='sorting'> sort by subject </a>
-        <a href='' class='sorting'> sort by genre </a>
-        <a href='' class='sorting'> don't sort at all </a>
+        <button onclick=sortArray(subjects) class='sorting'> sort by subject </button>
+        <button onclick=sortArray(genres) class='sorting'> sort by genre </button>
+        <button onclick=sortArray(broken) class='sorting'> don't sort at all </button>
     </div>
 
-    <div id="subjectArray" class="flex-container"></div>
+    <div id="arrayContainer" class="flex-container"></div>
+
+<!--     <div id="subjectArray" class="flex-container"></div>
     <div id="genreArray" class="flex-container"></div>
-    <div id="brokenArray"></div>
+    <div id="brokenArray"></div> -->
 
 </body>
 
     <script type="text/javascript" src="main.js"></script>
-<!--     <script type="text/javascript" src="sorting.js"></script>
-    <script type="text/javascript" src="broken.js"></script> -->
-
 
 </html> 
 

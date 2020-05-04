@@ -12,11 +12,13 @@ h1 {
 	padding-bottom: 8px;
 	padding-left: 20px;
 	padding-right: 20px;
-	margin: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 	font-size: 15px;
 	text-decoration: none;
 	background-color: lightgrey;
 	border: dotted black 3.5px;
+	cursor: pointer;
 }
 
 .sorting:visited {
@@ -44,6 +46,7 @@ h1 {
 	font-size: 30px;
 	cursor: pointer;
 }
+
 
 img {
 	margin-top: 20px;
